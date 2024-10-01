@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "6772832666",
+    "project_id": "expotest-83add",
+    "storage_bucket": "expotest-83add.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6772832666:android:32593ce12b74639cbfe223",
+        "android_client_info": {
+          "package_name": "com.anonymous.ExpoTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6772832666-6nv1caabojjh4g6tbksimm9ebkfgrftc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.ExpoTest",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "6772832666-9pl2jkv7ive3fo91b1ho2026bds2h6e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEgihIgu2ScC7E0x2mF0fBf1FF5zTj2nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6772832666-9pl2jkv7ive3fo91b1ho2026bds2h6e1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "6772832666-gtkpk66358fevijl9gm47iv6ra5g2eqh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anonymous.ExpoTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
