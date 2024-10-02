@@ -11,7 +11,7 @@ import {
 import auth from "@react-native-firebase/auth";
 import { FirebaseError } from "firebase/app";
 
-export default function Index() {
+export default function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);

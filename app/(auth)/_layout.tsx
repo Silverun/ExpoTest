@@ -1,5 +1,11 @@
-import { Stack } from "expo-router";
+import { Tabs } from "expo-router";
+
 const Layout = () => {
-  return <Stack />;
+  return (
+    <Tabs>
+      <Tabs.Screen name="profile" />
+      <Tabs.Screen name="items" />
+    </Tabs>
+  );
 };
 export default Layout;
