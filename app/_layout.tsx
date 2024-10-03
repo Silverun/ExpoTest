@@ -1,7 +1,7 @@
 import { Stack, useRouter, useSegments } from "expo-router";
 import { useEffect, useState } from "react";
 import auth, { FirebaseAuthTypes } from "@react-native-firebase/auth";
-import { View, ActivityIndicator } from "react-native";
+import { View, ActivityIndicator, SafeAreaView } from "react-native";
 
 export default function RootLayout() {
   const [initializing, setInitializing] = useState(true);
@@ -47,9 +47,9 @@ export default function RootLayout() {
     );
 
   return (
-    <Stack>
+    <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" options={{ title: "Login" }} />
-      <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+      <Stack.Screen name="(auth)" />
     </Stack>
   );
 }

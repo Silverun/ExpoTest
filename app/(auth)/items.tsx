@@ -1,3 +1,4 @@
+import { renderItem } from "@/components/item/ItemList";
 import useItems from "@/hooks/useItems";
 import { View, Text, FlatList } from "react-native";
 
@@ -6,11 +7,7 @@ const ItemsScreen = () => {
 
   return (
     <View>
-      <Text>items</Text>
-      <FlatList
-        data={items}
-        renderItem={({ item }) => <Text>{item.title}</Text>}
-      />
+      <FlatList data={items} renderItem={({ item }) => renderItem(item)} />
     </View>
   );
 };

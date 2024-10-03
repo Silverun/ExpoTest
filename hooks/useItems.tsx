@@ -9,7 +9,6 @@ const useItems = () => {
     const itemsCollection = firestore().collection("items");
     const snapshot = await itemsCollection.get();
     const items = snapshot.docs.map((doc) => doc.data() as Item);
-    console.log(items);
     setItems(items);
   };
 
